@@ -8,7 +8,7 @@ try {
 }
 
 // Ensure you have OPENAI_API_KEY set in your Vercel Environment Variables
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const OPENAI_API_KEY = process.env.VITE_AI_API_KEY;
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions'; // Or your preferred model endpoint
 
 export default async function handler(req, res) {
